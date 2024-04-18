@@ -1,0 +1,19 @@
+.greeting {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 5rem;
+    animation: growShrink 2s ease-in-out infinite;
+}
+
+@keyframes growShrink {
+    0% {
+      transform: scale(0.9); /* Estado inicial */
+    }
+    50% {
+      transform: scale(1); /* Escala al 120% a la mitad de la animación */
+    }
+    100% {
+      transform: scale(0.9); /* Vuelve al tamaño original al final */
+    }
+}
+
