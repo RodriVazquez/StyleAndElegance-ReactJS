@@ -1,6 +1,6 @@
-import Brand from "./Brand";
-import CategoryList from "./CategoryList";
-import CartWidget from "./CartWidget";
+import Brand from "../Brand/Brand";
+import CategoryList from "../CartegoryList/CategoryList";
+import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css"
 
 

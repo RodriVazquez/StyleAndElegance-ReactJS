@@ -1,0 +1,7 @@
+.cardContainer {
+    margin-block: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre cada tarjeta */
+    justify-content: center; /* Centra las tarjetas horizontalmente */
+}
