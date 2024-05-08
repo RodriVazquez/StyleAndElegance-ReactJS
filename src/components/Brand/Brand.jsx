@@ -1,12 +1,15 @@
+import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png"
 import "./Brand.css"
 
 
 function Brand () {
     return (
-        <div>
-            <img className="logo" src={logo} alt="logo S&E" />
-        </div>
+        
+            <Link to="/">
+                <img className="logo" src={logo} alt="logo S&E" />
+            </Link>
+        
     )
 }
 

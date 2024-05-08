@@ -1,13 +1,16 @@
 
+import { Link } from "react-router-dom";
 import "./CategoryList.css"
 
 
 function CategoryList () {
     return (
         <ul className="list">
-            <li className="listLi"><a className="listItem" href="#">Men</a></li>
-            <li className="listLi"><a className="listItem" href="#">Women</a></li>
-            <li className="listLi"><a className="listItem" href="#">Kids</a></li>
+            <li className="listLi"><Link className="listItem" to="/">Inicio</Link></li>
+            <li className="listLi"><Link className="listItem" to="/productos/remeras">Remeras</Link></li>
+            <li className="listLi"><Link className="listItem" to="/productos/pantalones">Pantalones</Link></li>
+            <li className="listLi"><Link className="listItem" to="/productos/buzos">Buzos</Link></li>
+            <li className="listLi"><Link className="listItem" to="/productos/calzado">Calzado</Link></li>
         </ul>
     )
 }

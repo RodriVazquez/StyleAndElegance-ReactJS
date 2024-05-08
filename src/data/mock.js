@@ -151,6 +151,20 @@ export const getProducts = () => {
     return new Promise ((res) => {
         setTimeout(()=> {
             res(products);
-        }, 2000); 
+        }, 1000); 
     });
 };
+
+export const getProductsForId = (id) => {
+    return new Promise ((res, rej) => {
+
+      const item = products.find ((el) => el.id === id)
+
+      if (item) {
+        res (item)
+      } else {
+        rej ({ error: "No se encontró el producto" })
+      }
+      
+    })
+}
