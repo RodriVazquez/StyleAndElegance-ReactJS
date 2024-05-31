@@ -1,7 +1,7 @@
 
 
 
-function ItemCounter({stock, decrement, increment, count}) {
+function ItemCounter({stock, decrement, increment, count, addToCart}) {
 
     return (
         <div>
@@ -18,13 +18,14 @@ function ItemCounter({stock, decrement, increment, count}) {
                     onClick={ increment } 
                     disabled ={ count >= stock }
                 > + </button>
-                
+                <br /> 
+                <button
+                    onClick= { addToCart }
+                    disabled= {count <= 0}
+                > Agregar al carrito </button>
             </div>
         </div>
-
     )
 }
 
 export default ItemCounter;
-
-// este componente lo tengo que llamar en la card que se genera en ver mas

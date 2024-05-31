@@ -6,7 +6,8 @@ const products = [
     description: "Remera azul de algodón disponible en todos los talles.",
     price: 19,
     stock: 5,
-    category: "remeras"
+    category: "remeras",
+    quantity: 0
   },
   {
     id: 2,
@@ -15,7 +16,8 @@ const products = [
     description: "Remera negra de algodón disponible en todos los talles.",
     price: 49,
     stock: 8,
-    category: "remeras"
+    category: "remeras",
+    quantity: 0
   },
   {
     id: 3,
@@ -24,7 +26,8 @@ const products = [
     description: "Remera roja de algodón disponible en todos los talles.",
     price: 41,
     stock: 7,
-    category: "remeras"
+    category: "remeras",
+    quantity: 0
   },
   {
     id: 4,
@@ -33,7 +36,8 @@ const products = [
     description: "Remera blanca de algodón disponible en todos los talles.",
     price: 79,
     stock: 6,
-    category: "remeras"
+    category: "remeras",
+    quantity: 0
   },
   {
     id: 5,
@@ -42,7 +46,8 @@ const products = [
     description: "Jean azul de alta calidad, ideal para cualquier ocasión.",
     price: 55,
     stock: 4,
-    category: "pantalones"
+    category: "pantalones",
+    quantity: 0
   },
   {
     id: 6,
@@ -51,7 +56,8 @@ const products = [
     description: "Jean negro de estilo moderno y cómodo.",
     price: 21,
     stock: 6,
-    category: "pantalones"
+    category: "pantalones",
+    quantity: 0
   },
   {
     id: 7,
@@ -60,7 +66,8 @@ const products = [
     description: "Pantalón deportivo negro, ideal para actividades físicas.",
     price: 86,
     stock: 5,
-    category: "pantalones"
+    category: "pantalones",
+    quantity: 0
   },
   {
     id: 8,
@@ -69,7 +76,8 @@ const products = [
     description: "Short rojo cómodo y versátil, perfecto para el verano.",
     price: 18,
     stock: 7,
-    category: "pantalones"
+    category: "pantalones",
+    quantity: 0
   },
   {
     id: 9,
@@ -78,7 +86,8 @@ const products = [
     description: "Buzo blanco oversize, suave y confortable.",
     price: 82,
     stock: 5,
-    category: "buzos"
+    category: "buzos",
+    quantity: 0
   },
   {
     id: 10,
@@ -87,7 +96,8 @@ const products = [
     description: "Buzo negro oversize, moderno y a la moda.",
     price: 33,
     stock: 8,
-    category: "buzos"
+    category: "buzos",
+    quantity: 0
   },
   {
     id: 11,
@@ -96,7 +106,8 @@ const products = [
     description: "Buzo clásico azul, diseño elegante y cómodo.",
     price: 45,
     stock: 6,
-    category: "buzos"
+    category: "buzos",
+    quantity: 0
   },
   {
     id: 12,
@@ -105,7 +116,8 @@ const products = [
     description: "Buzo clásico rojo, perfecto para cualquier ocasión.",
     price: 18,
     stock: 4,
-    category: "buzos"
+    category: "buzos",
+    quantity: 0
   },
   {
     id: 13,
@@ -114,7 +126,8 @@ const products = [
     description: "Zapatillas deportivas negras, ideales para el día a día.",
     price: 67,
     stock: 7,
-    category: "calzado"
+    category: "calzado",
+    quantity: 0
   },
   {
     id: 14,
@@ -123,7 +136,8 @@ const products = [
     description: "Zapatillas deportivas blancas, estilo y comodidad.",
     price: 51,
     stock: 5,
-    category: "calzado"
+    category: "calzado",
+    quantity: 0
   },
   {
     id: 15,
@@ -132,7 +146,8 @@ const products = [
     description: "Zapatos de vestir elegantes y sofisticados.",
     price: 71,
     stock: 9,
-    category: "calzado"
+    category: "calzado",
+    quantity: 0
   },
   {
     id: 16,
@@ -141,7 +156,8 @@ const products = [
     description: "Zapatillas rojas, modernas y confortables.",
     price: 23,
     stock: 6,
-    category: "calzado"
+    category: "calzado",
+    quantity: 0
   }
 ];
 
