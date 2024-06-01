@@ -5,11 +5,8 @@ import NavBar from './components/NavBar/NavBar'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer'
 import { CartProvider } from './context/CartContext'
 import Cart from './components/Cart/Cart'
+import Checkout from './components/Checkout/Checkout'
 
-// OBJETIVO DE HOY: Context funcional. Carrito que se actualice correctamente y tambien funcione el localStorage.
-// OBJETIVO DE MIERCOLES: Firebase funcional y terminado. (incluye imágenes)
-// OBJETIVO DE JUEVES: DETALLES FINALES (VER .TXT). TERMINAR ESA NOCHE
-// OBJETIVO DE VIERNES: HABER TERMINADO LA NOCHE ANTERIOR. 
 
 function App() {
 
@@ -26,6 +23,7 @@ function App() {
             <Route path='/productos' element={<ItemListContainer />} />
             <Route path='/productos/:category' element={<ItemListContainer />} />
             <Route path='/carrito' element={<Cart />} />
+            <Route path='/checkout' element={<Checkout />} />
             
           </Routes>
 

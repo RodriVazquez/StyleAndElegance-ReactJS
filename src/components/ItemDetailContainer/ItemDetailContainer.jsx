@@ -1,20 +1,24 @@
 import React, { useEffect, useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
-import { getProductsForId } from "../../data/mock";
 import "./ItemDetailContainer.css"
 import { useParams } from "react-router-dom";
-
+import { doc, getDoc } from "firebase/firestore"
+import { db } from "../../firebase/config";
 
 export default function ItemDetailContainer() {
     const [item, setItem] = useState(null);
     const id = useParams().id;
 
     useEffect(() => {
-    
-        getProductsForId(Number(id))
-            .then ((res)=> {
-                setItem(res);
+
+        const docRef = doc(db, "products", id)
+        getDoc(docRef)
+            .then ((res) => {
+                setItem(
+                    { ...res.data(), id: res.id }
+                );
             })
+
     }, [id]);
 
     return (
